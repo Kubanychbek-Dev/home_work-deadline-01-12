@@ -1,0 +1,29 @@
+[
+  {
+    "user_name": "Kuba",
+    "level": "тяжелый",
+    "correct_answers": [
+      "rural",
+      "fortune",
+      "exercise",
+      "suggest",
+      "except"
+    ],
+    "wrong_answers": [],
+    "rank": "Отлично"
+  },
+  {
+    "user_name": "Elon",
+    "level": "средний",
+    "correct_answers": [
+      "believe",
+      "feel",
+      "make"
+    ],
+    "wrong_answers": [
+      "open",
+      "think"
+    ],
+    "rank": "Норм"
+  }
+]

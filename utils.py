@@ -7,7 +7,7 @@ def get_user_level(ask_level, levels):
         words = levels[2]
     else:
         words = levels[0]
-    return words
+    return words, ask_level
 
 
 def base_program(words):
@@ -48,5 +48,6 @@ def get_result(answers):
     for wrongs in wrong_answers:
         print(wrongs)
     print()
-    return correct_answers
+    return correct_answers, right_answers, wrong_answers
+
 
