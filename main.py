@@ -15,6 +15,8 @@ while True:
     ask_name = input("Ваше имя\n").strip().title()
     if ask_name == "":
         print("Введите имя")
+    elif ask_name.isalpha() is False:
+        print("Введите только буквы!")
     else:
         break
 
